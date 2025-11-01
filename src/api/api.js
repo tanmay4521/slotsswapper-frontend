@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://slotsswapper-backend-1.onrender.com/api', // or your backend URL
+  baseURL: 'https://slotsswapper-backend.onrender.com/api', // or your backend URL
 });
 
 // Intercepts requests to attach the token
